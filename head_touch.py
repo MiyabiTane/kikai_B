@@ -7,21 +7,6 @@ head_message_arrived=False
 def talker56(msg):
     global head_message_arrived
     head_message_arrived=msg
-    #print(msg)
-    """while not rospy.is_shutdown():
-        if message_arrived:
-            str="hello world %s"%rospy.get_time()
-            rospy.loginfo(str)
-            hello=Twist();
-            hello.linear.x=1;
-            hello.linear.y=0;
-            hello.linear.z=0;
-            hello.angular.x=0;
-            hello.angular.y=0;
-            hello.angular.z=0;
-            pub.publish(hello);
-            rospy.sleep(0.2)
-        message_arrived=False"""
 
 if __name__=='__main__':
     try:
