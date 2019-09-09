@@ -44,7 +44,6 @@ if __name__=='__main__':
 
             rospy.sleep(1)
             #sys.exit(0)
-        #talker3()
 
     except rospy.ROSInterruptException:
         pass
