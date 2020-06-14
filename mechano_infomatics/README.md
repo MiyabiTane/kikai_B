@@ -3,19 +3,23 @@
 ### プログラムの動かし方<br>
 実行環境：macOS High Sierra<br>
 
-**課題１**
+**実験１**
 ```
 python3 ./research.py --test test1
 ```
-**課題２**
+**実験２**
 ```
 python3 ./research.py --test test2
 ```
-**課題３**
+**実験３**
 ```
 python3 ./research.py --test test3
 ```
-**追加課題**
+**追加実験１**
 ```
 python3 ./optional.py
+```
+**追加実験２**
+```
+python3 ./optional2.py
 ```
