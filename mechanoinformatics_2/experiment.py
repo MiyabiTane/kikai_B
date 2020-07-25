@@ -1,5 +1,6 @@
 from decision_tree import decision_tree_main as main
 import matplotlib.pyplot as plt
+import os
 
 def experiment():
     accuracy = [[], []]
@@ -12,6 +13,7 @@ def experiment():
     return accuracy
 
 def vis_graph(accuracy):
+    os.makedirs("img", exist_ok=True)
     labels = ["gini index", "cross entropy"]
     x = [i for i in range(6)]
     plt.figure()

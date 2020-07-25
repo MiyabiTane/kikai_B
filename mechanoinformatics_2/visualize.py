@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split as split
+import os
 
 def visualize(test_data, test_target, mode):
+    os.makedirs("img", exist_ok=True)
     #petal length, petal widthを軸にとって可視化
     markers = ["p", "*", "o"]
     labels = ["Setosa", "Versicolor", "Virginica"]
